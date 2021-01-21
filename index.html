@@ -1,0 +1,43 @@
+ <!DOCTYPE html> 
+<html>
+    <head>
+      <title>Image recognition</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+    
+    </head>
+<b>
+<body>
+    <div class="container">
+        <center>
+            <h1 id="header">Recognise Me?</h1>
+            <br><br><br>
+            <h3 id="header2">I can recognise:</h3>
+
+                <h3 id="header3"></h3> Mother | Daughter(Me) </h3>
+    
+            <br><br>
+            <label>Webacm View:</label>
+            <br><br>
+            <div id="camera"></div>
+            <br><br>
+            <button id="takepic" onclick="take_pic">Capture Image</button>
+            <br><br>
+            <div id="result"></div>
+            <br><br>
+            <button id="displaypic" onclick="chck_stats">Identify</button>
+            <br><br><br>
+            <p id="stat1">Object:<span id="object_name"></span></p>
+            <p id="stat2">Accuracy:<span id="accuracy_no"></span></p>
+        </b>
+        </center>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

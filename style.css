@@ -1,0 +1,44 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background-image: url('g3.jpg');
+    color:white;
+}
+
+#camera{
+border: 10px groove white;
+width:400px;
+height:350px;
+}
+
+#result{
+border: 10px groove white;
+width:400px;
+height:300px;
+}
+
+#takepic,#displaypic{
+font-size: 25px;
+background-image:linear-gradient(to right bottom,#bee6f7,#d8f7c1,#f2cef0,#f7f3c1);
+color:black;
+}
+
+h1
+{
+background-image:linear-gradient(to right bottom,#bee6f7,#d8f7c1,#f2cef0,#f7f3c1);
+}
+
+#stat1,#stat2
+{
+font-size:20px;
+}
+
+#header
+{
+font-size:40px;
+color:black;
+}
+
+#header2,#header3
+{
+size:20px;
+}
